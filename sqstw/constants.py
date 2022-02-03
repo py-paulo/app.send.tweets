@@ -1,0 +1,1 @@
+TWITTER_GET_RECENTS_TWEETS: str = "https://api.twitter.com/2/tweets/search/recent?query=has:media puppies&tweet.fields=attachments,created_at,entities&expansions=attachments.media_keys&media.fields=duration_ms,preview_image_url,type,url,width&user.fields=created_at,description,id,location,name,profile_image_url,protected,url,username,verified"
